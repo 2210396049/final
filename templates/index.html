@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Kaynağı Yönetim Sistemi</title>
+</head>
+<body>
+    <h1>Web Kaynağı Ekle</h1>
+    <form action="{{ url_for('add_resource') }}" method="POST">
+        <label for="kaynakID">Kaynak ID:</label>
+        <input type="text" id="kaynakID" name="kaynakID" required><br><br>
+        
+        <label for="kaynakAdi">Kaynak Adı:</label>
+        <input type="text" id="kaynakAdi" name="kaynakAdi" required><br><br>
+        
+        <label for="kaynakDetay">Kaynak Detay:</label>
+        <input type="text" id="kaynakDetay" name="kaynakDetay" required><br><br>
+        
+        <label for="kaynakURL">Kaynak URL:</label>
+        <input type="url" id="kaynakURL" name="kaynakURL" required><br><br>
+        
+        <button type="submit">Kaynak Ekle</button>
+    </form>
+
+    <h2>Kaynak Durumlarını Kontrol Et</h2>
+    <form action="{{ url_for('check_resources') }}" method="get">
+        <button type="submit">Durumları Kontrol Et</button>
+    </form>
+
+    <h2>Kaynak Durumları</h2>
+    <ul>
+        {% for resource in resources %}
+            <li>{{ resource['kaynakID'] }} - {{ resource['durum'] }} - {{ resource['zamanDamgasi'] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

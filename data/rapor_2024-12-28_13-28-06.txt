@@ -1,0 +1,10 @@
+KaynakID: https://github.com/orcunmadran/miniOrumcek
+KaynakAdi: github
+KaynakURL: https://github.com/orcunmadran/miniOrumcek
+Durum: Erişilebilir
+
+KaynakID: https://github.com/orcunmadran/miniOrumcek
+KaynakAdi: github
+KaynakURL: https://github.com/orcunmadran/miniOrumcek
+Durum: Erişilebilir
+

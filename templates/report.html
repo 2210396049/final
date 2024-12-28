@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Kaynakları Raporu</title>
+</head>
+<body>
+    <h1>Web Kaynakları Raporu</h1>
+    <table border="1">
+        <tr>
+            <th>Kaynak ID</th>
+            <th>Kaynak Adı</th>
+            <th>Kaynak URL</th>
+            <th>Durum</th>
+        </tr>
+        {% for item in report_data %}
+        <tr>
+            <td>{{ item.KaynakID }}</td>
+            <td>{{ item.KaynakAdi }}</td>
+            <td>{{ item.KaynakURL }}</td>
+            <td>{{ item.Durum }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
