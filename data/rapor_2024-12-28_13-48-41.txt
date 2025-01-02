@@ -1,0 +1,40 @@
+KaynakID: https://github.com/orcunmadran/miniOrumcek
+KaynakAdi: github
+KaynakURL: https://github.com/orcunmadran/miniOrumcek
+Durum: Erişilebilir
+
+KaynakID: https://github.com/orcunmadran/miniOrumcek
+KaynakAdi: github
+KaynakURL: https://github.com/orcunmadran/miniOrumcek
+Durum: Erişilebilir
+
+KaynakID: About Yale: Yale Facts
+KaynakAdi: Yale Facts
+KaynakURL: https://www.yale.edu/about-yale/yale-fact.
+Durum: Erişilemez
+
+KaynakID: About Yale: Yale Facts
+KaynakAdi: Yale Facts
+KaynakURL: https://www.yale.edu/about-yale/yale-fact.
+Durum: Erişilemez
+
+KaynakID: https://github.com/orcunmadran/miniOrumcek
+KaynakAdi: github
+KaynakURL: https://github.com/orcunmadran/miniOrumcek
+Durum: Erişilebilir
+
+KaynakID: About Yale: Yale Facts
+KaynakAdi: Yale Facts
+KaynakURL: https://www.yale.edu/about-yale/yale-fact.
+Durum: Erişilemez
+
+KaynakID: About Yale: Yale Facts
+KaynakAdi: Yale Facts
+KaynakURL: https://www.yale.edu/about-yale/yale-fact.
+Durum: Erişilemez
+
+KaynakID: About Yale: Yale Facts
+KaynakAdi: Yale Facts
+KaynakURL: https://www.yale.edu/about-yale/yale-fact.
+Durum: Erişilemez
+

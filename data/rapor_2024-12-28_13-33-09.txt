@@ -5,7 +5,7 @@ Durum: Erişilebilir
 
 KaynakID: https://github.com/orcunmadran/miniOrumcek
 KaynakAdi: github
-KaynakURL: https://github.com/orcunmadran/miniOrumcek
+KaynakURL: ://github.com/orcunmadran/miniOruhttpsmcek
 Durum: Erişilebilir
 
 KaynakID: About Yale: Yale Facts
